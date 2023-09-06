@@ -31,4 +31,4 @@ jobs:
     - run: npm install
     - run: npm ci
     - run: npm run build --if-present
-    - run: node server.js
+    - run: pm2 start server.js
