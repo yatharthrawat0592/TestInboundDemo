@@ -4,7 +4,7 @@ var fs = require('fs');
 const {URL} = require('url');
 var request = require('request-promise');
 
-let idps = []
+let idps = ['test']
 global.client = require('./client-config.json');
 
 var buildUrl = require('build-url');
